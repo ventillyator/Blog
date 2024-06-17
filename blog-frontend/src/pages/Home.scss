@@ -1,0 +1,91 @@
+.search-input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    &:focus {
+        outline: none;
+        border: 3px solid #4361ee;
+    }
+}
+
+@media (max-width: 768px) {
+    .MuiGrid-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .MuiTabs-root {
+        flex-direction: column;
+    }
+    .MuiTab-root {
+        font-size: 16px;
+    }
+    .search-input {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .MuiGrid-container {
+        flex-direction: column;
+    }
+    .MuiGrid-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .search-input {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    &:focus {
+        outline: none;
+        border: 3px solid #4361ee;
+    }
+}
+
+@media (max-width: 768px) {
+    .MuiGrid-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .MuiTabs-root {
+        flex-direction: column;
+    }
+    .MuiTab-root {
+        font-size: 16px;
+    }
+    .search-input {
+        font-size: 14px;
+    }
+    .MuiButton-root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .MuiGrid-container {
+        flex-direction: column;
+    }
+    .MuiGrid-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .search-input {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .MuiButton-root {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('../public/v1016-b-09.jpg') no-repeat center center fixed;
+    background-size: cover;
+    cursor: url('../public/icons8-3d-pointer-48.png'), auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-position: center center;
+        background-size: cover;
+    }
+}
